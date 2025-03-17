@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    float: left;
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute; 
+    top: 4.5%;
+    left: 0.3%;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;                                        
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 32px;
+}
+
+.icons{
+    position: absolute;
+    top: 93%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+
+.icons{
+    padding: 5px 2px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.icons:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 120px;
+    padding-top: 10;
+}
+
+.icons p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header ul {
+    list-style: none;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    font-size: 20px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    background-color:transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    top: 100%;
+    padding-right: 100%; 
+    z-index: 100;   
+}
+.dropdown-content li{
+    padding: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown a{
+    float: left;
+}

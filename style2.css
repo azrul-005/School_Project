@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #313131;
+    color: #fff;
+    padding: 23px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.team-member {
+    text-align: center;
+    
+}
+
+.team-member img {
+    width: 350px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+    float: left;
+    list-style: none;
+    background-color: #000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    top: 100%;
+    padding-right: 100%; 
+    list-style: none;   
+}
+.dropdown-content li{
+    padding: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown a{
+    float: left;
+}
